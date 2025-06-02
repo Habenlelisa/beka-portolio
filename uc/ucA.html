@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="unitconverter.css" />
+  </head>
+
+  <body>
+    <div class="all">
+    <nav id="navigate">
+      <a href="/pages/html/uc/ucL.html"><p id="length">length</p></a>
+      <a href="/pages/html/uc/ucA.html"
+        ><p id="area" style="color: #0f0">area</p></a
+      >
+      <a href="/pages/html/uc/ucv.html"><p id="volume">volume</p></a>
+      <a href="/pages/html/uc/uct.html"><p id="time">time</p></a>
+      <a href="/pages/html/uc/ucTem.html"
+        ><p id="temperature">temperature</p></a
+      >
+      <a href="/pages/html/uc/ucW.html"><p id="weight">weight</p></a>
+    </nav>
+    <div class="firstline">
+      <select id="units1">
+        <option value="4047">acre</option>
+        <option value="1">meter²</option>
+        <option value="100">Are</option>
+        <option value="1000000">kilometer²</option>
+        <option value="0.01">decimeter²</option>
+        <option value="0.0001">centimeter²</option>
+        <option value="0.000001">millimeter²</option>
+        <option value="10000">hectare</option>
+        <option value="0.09">foot²</option>
+        <option value="0.00065">inch²</option>
+        <option value="0.00077">yard²</option>
+      </select>
+      <p id="answer"></p>
+    </div>
+    <div class="secondline">
+      <select id="units2">
+        <option value="4047">acre</option>
+        <option value="1">meter²</option>
+        <option value="100">Are</option>
+        <option value="1000000">kilometer²</option>
+        <option value="0.01">decimeter²</option>
+        <option value="0.0001">centimeter²</option>
+        <option value="0.000001">millimeter²</option>
+        <option value="10000">hectare</option>
+        <option value="0.09">foot²</option>
+        <option value="0.00065">inch²</option>
+        <option value="0.00077">yard²</option>
+      </select>
+      <p id="answer2"></p>
+    </div>
+    <div class="numbers">
+      <button onclick="addval('7')">7</button>
+      <button onclick="addval('8')">8</button>
+      <button onclick="addval('9')">9</button>
+      <button id="x" onclick="remove()">X</button>
+      <button onclick="addval('4')">4</button>
+      <button onclick="addval('5')">5</button>
+      <button onclick="addval('6')">6</button>
+      <button id="ac" class="long" onclick="cr()">AC</button>
+      <button onclick="addval('1')">1</button>
+      <button onclick="addval('2')">2</button>
+      <button onclick="addval('3')">3</button>
+      <button onclick="addval('00')">00</button>
+      <button onclick="addval('0')">0</button>
+      <button onclick="addval('.')">.</button>
+    </div></div>
+    <script src="unitconverter.js" type="text/javascript"></script>
+  </body>
+</html>
