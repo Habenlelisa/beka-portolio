@@ -133,7 +133,7 @@ h1 {
   transform: translateY(-5px);
 }
 
-.project-card img {
+.project-card img,video {
   width: 100%;
   height: auto;
   border-radius: 10px;
