@@ -32,9 +32,9 @@ a {
 }
 
 .hero img {
-  opacity: 75%;
+  opacity: 70%;
   max-width: 300px;
-  border-radius: 8px;
+  border-radius: 50%;
   background: rgb(3, 1, 1);
 }
 h1 {
